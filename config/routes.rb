@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'controller/action1'
+
+  get 'controller/action2'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
